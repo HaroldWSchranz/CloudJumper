@@ -814,13 +814,13 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 0.81
+  m_Height: 1
   m_Radius: 0.2
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0.5, z: 0}
+  m_Center: {x: 0, y: 0.6, z: 0}
 --- !u!4 &1220306804 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4ec5a139f189dcd4394ac1cc732417e0, type: 3}
@@ -859,7 +859,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4ec5a139f189dcd4394ac1cc732417e0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.63
+      value: -0.914
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4ec5a139f189dcd4394ac1cc732417e0, type: 3}
       propertyPath: m_LocalRotation.w

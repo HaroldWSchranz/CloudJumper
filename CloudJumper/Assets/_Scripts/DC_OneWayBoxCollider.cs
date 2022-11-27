@@ -50,10 +50,10 @@ public class DC_OneWayBoxCollider : MonoBehaviour
         // Simulate a collision between our trigger and the intruder to check
         // the direction that the latter is coming from. The method returns true
         // if any collision has been detected.
-        if (Physics.ComputePenetration(
-            collisionCheckTrigger, transform.position, transform.rotation,
+        if (Physics.ComputePenetration
+            (collisionCheckTrigger, transform.position, transform.rotation,
             other, other.transform.position, other.transform.rotation,
-            out Vector3 collisionDirection, out float _))
+            out Vector3 collisionDirection, out float penetrationDepth))
         {
             float dot = Vector3.Dot(Direction, collisionDirection);
 
